@@ -37,7 +37,7 @@ p{
     margin: 0px 20px 0px 10px;
     cursor: pointer;
 }
-p:hover{
+header p:hover{
     color:grey;
 }
 
@@ -60,4 +60,30 @@ li:hover{
     left: 16vw;
     color: #fff;
     font-family: "wixui-rich-text";
+    display: flex;
+    flex-direction: column;
+    font-size: 2em;
+}
+
+.content h1 {
+    margin-left:0;
+}
+.content p{
+    margin-left: 0;
+}
+
+.click{
+    padding: 10px 40px 10px 40px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: white;
+    height: 45px;
+    width: 130px;
+    margin-top: 40px;
+    font-weight: 700;
+}
+
+button:hover{
+    background-color: #fff;
+    color:#111;
 }
